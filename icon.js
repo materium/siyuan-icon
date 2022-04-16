@@ -1,9 +1,15 @@
 document.body.insertAdjacentHTML('afterBegin', `<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <symbol id="iconGithub" viewBox="0 0 32 32">
-    <g fill="currentColor">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M16,0.4c-8.8,0-16,7.2-16,16c0,7.1,4.6,13.1,10.9,15.2 c0.8,0.1,1.1-0.3,1.1-0.8c0-0.4,0-1.4,0-2.7c-4.5,1-5.4-2.1-5.4-2.1c-0.7-1.8-1.8-2.3-1.8-2.3c-1.5-1,0.1-1,0.1-1 c1.6,0.1,2.5,1.6,2.5,1.6c1.4,2.4,3.7,1.7,4.7,1.3c0.1-1,0.6-1.7,1-2.1c-3.6-0.4-7.3-1.8-7.3-7.9c0-1.7,0.6-3.2,1.6-4.3 c-0.2-0.4-0.7-2,0.2-4.2c0,0,1.3-0.4,4.4,1.6c1.3-0.4,2.6-0.5,4-0.5c1.4,0,2.7,0.2,4,0.5C23.1,6.6,24.4,7,24.4,7 c0.9,2.2,0.3,3.8,0.2,4.2c1,1.1,1.6,2.5,1.6,4.3c0,6.1-3.7,7.5-7.3,7.9c0.6,0.5,1.1,1.5,1.1,3c0,2.1,0,3.9,0,4.4 c0,0.4,0.3,0.9,1.1,0.8C27.4,29.5,32,23.5,32,16.4C32,7.6,24.8,0.4,16,0.4z"></path>
+  <symbol id="iconInbox" viewBox="0 0 32 32">
+    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor">
+      <line x1="16" y1="1" x2="16" y2="15"></line>
+      <polyline points="22 9 16 15 10 9"></polyline>
+      <polyline points="2 19 11 19 11 23 21 23 21 19 30 19"></polyline>
+      <path d="M22,2h5a3,3,0,0,1,3,3V27a3,3,0,0,1-3,3H5a3,3,0,0,1-3-3V5A3,3,0,0,1,5,2h5"></path>
     </g>
+  </symbol>
+  <symbol id="iconGithub" viewBox="0 0 32 32">
+    <path d="M16 0.396c-8.84 0-16 7.164-16 16 0 7.071 4.584 13.067 10.94 15.18 0.8 0.151 1.093-0.344 1.093-0.769 0-0.38-0.013-1.387-0.020-2.72-4.451 0.965-5.389-2.147-5.389-2.147-0.728-1.847-1.78-2.34-1.78-2.34-1.449-0.992 0.112-0.972 0.112-0.972 1.607 0.112 2.451 1.648 2.451 1.648 1.427 2.447 3.745 1.74 4.66 1.331 0.144-1.035 0.556-1.74 1.013-2.14-3.553-0.4-7.288-1.776-7.288-7.907 0-1.747 0.62-3.173 1.647-4.293-0.18-0.404-0.72-2.031 0.14-4.235 0 0 1.34-0.429 4.4 1.64 1.28-0.356 2.64-0.532 4-0.54 1.36 0.008 2.72 0.184 4 0.54 3.040-2.069 4.38-1.64 4.38-1.64 0.86 2.204 0.32 3.831 0.16 4.235 1.020 1.12 1.64 2.547 1.64 4.293 0 6.147-3.74 7.5-7.3 7.893 0.56 0.48 1.080 1.461 1.080 2.96 0 2.141-0.020 3.861-0.020 4.381 0 0.42 0.28 0.92 1.1 0.76 6.401-2.099 10.981-8.099 10.981-15.159 0-8.836-7.164-16-16-16z"></path>
   </symbol>
   <symbol id="iconGitHubI" viewBox="0 0 32 32">
     <path d="M16 19c1.657 0 3-1.343 3-3s-1.343-3-3-3v0c-1.657 0-3 1.343-3 3s1.343 3 3 3v0z"></path>
@@ -166,7 +172,7 @@ document.body.insertAdjacentHTML('afterBegin', `<svg style="position: absolute; 
     <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor"><path d="M3,5v22c0,2.3,6.1,4,13,4s13-1.7,13-4 V5"></path> <path d="M29,5 c0,2.3-6.1,4-13,4S3,7.3,3,5s6.1-4,13-4S29,2.7,29,5z"></path> <path d="M29,16c0,2.3-6.1,4-13,4 S3,18.3,3,16"></path></g>
   </symbol>
   <symbol id="iconMark" viewBox="0 0 32 32">
-    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor"><polyline points=" 11,24 8,27 3,26 8,21 "></polyline> <polyline points=" 27.5,6.5 20,14 18,12 25.5,4.5 "></polyline> <rect x="5.979" y="9.05" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.6274 16.8284)" width="24.042" height="9.899"></rect></g>
+    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor"><line x1="1" y1="16" x2="3" y2="16"></line> <line x1="5.393" y1="5.393" x2="6.808" y2="6.808"></line> <line x1="16" y1="1" x2="16" y2="3"></line> <line x1="26.607" y1="5.393" x2="25.192" y2="6.808"></line> <line x1="31" y1="16" x2="29" y2="16"></line> <path d="M25,16c0-4.971-4.029-9-9-9 s-9,4.029-9,9c0,3.532,2.039,6.58,5,8.053V31h8v-6.947C22.961,22.58,25,19.532,25,16z"></path> <line x1="12" y1="27" x2="20" y2="27"></line></g>
   </symbol>
   <symbol id="iconEdit" viewBox="0 0 32 32">
     <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor"><line x1="3" y1="31" x2="29" y2="31"></line> <polygon points="11 24 4 26 6 19 23 2 28 7 11 24"></polygon></g>
