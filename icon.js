@@ -48,8 +48,10 @@ document.body.insertAdjacentHTML('afterBegin', `<svg style="position: absolute; 
     <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor"><line x1="16" y1="2" x2="16" y2="30"></line> <line x1="30" y1="16" x2="2" y2="16"></line></g>
   </symbol>
   <symbol id="iconMoon" viewBox="0 0 32 32">
-    <g fill="currentColor">
-      <path d="M16,0A16,16,0,1,0,32,16,16.018,16.018,0,0,0,16,0Zm0,30A14,14,0,0,1,3.444,22.153a15.844,15.844,0,0,0,3.011.3,16.018,16.018,0,0,0,16-16,15.831,15.831,0,0,0-.3-3.01A13.988,13.988,0,0,1,16,30Z"></path>
+    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor">
+      <path d="M16,1V31A15,15,0,0,0,16,1Z" opacity="0.5" stroke="none" fill="currentColor"></path>
+      <line x1="16" y1="1" x2="16" y2="31"></line>
+      <circle cx="16" cy="16" r="15"></circle>
     </g>
   </symbol>
   <symbol id="iconCut" viewBox="0 0 32 32">
