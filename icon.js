@@ -88,20 +88,17 @@ document.body.insertAdjacentHTML('afterBegin', `<svg style="position: absolute; 
     </g>
   </symbol>
   <symbol id="iconA" viewBox="0 0 32 32">
-    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor">
-      <polyline points="3.399 30 15.5 2 16.5 2 28.599 30"></polyline>
-      <line x1="7.721" y1="20" x2="24.278" y2="20"></line>
-    </g>
+    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor"><path d="M3.998,19.583 C2.233,18.811,1,17.049,1,15V9c0-2.761,2.239-5,5-5h13c2.761,0,5,2.239,5,5v6c0,2.761-2.239,5-5,5h-7"></path> <path d=" M28.002,12.417C29.767,13.189,31,14.951,31,17v6c0,2.761-2.239,5-5,5H13c-2.761,0-5-2.239-5-5v-6c0-2.761,2.239-5,5-5h7"></path></g>
   </symbol>
   <symbol id="iconN" viewBox="0 0 32 32">
     <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor">
-      <polyline points="3 30 3 2 4 2 15.5 30 16.5 30 28 2 29 2 29 30"></polyline>
+      <polygon points="5 4 5 27.5 20 30.5 20 1.5 5 4"></polygon>
+      <polyline points="24 27 27 27 27 5 24 5"></polyline>
+      <line x1="16" y1="17" x2="16" y2="19"></line>
     </g>
   </symbol>
   <symbol id="iconM" viewBox="0 0 32 32">
-    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor">
-      <polyline points="3 30 3 2 4 2 15.5 30 16.5 30 28 2 29 2 29 30"></polyline>
-    </g>
+    <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor"><circle cx="16" cy="16" r="15"></circle> <line x1="16" y1="13" x2="16" y2="24"></line> <circle cx="16" cy="7.5" r="1.5" stroke="none" fill="currentColor"></circle></g>
   </symbol>
   <symbol id="iconYuque" viewBox="0 0 32 32">
     <path d="M29.177 10.542c-0.381-1.515 0.381-3.931 2.823-4.785l-2.612-0.138s-0.988-3.462-5.523-3.769c-4.535-0.312-7.5-0.115-7.5-0.115s3.362 2.138 2.015 5.95c-0.985 2.019-2.531 3.677-4.185 5.565-0.050 0.050-0.096 0.1-0.135 0.142-5.469 6.165-14.062 15.973-14.062 15.973 9.458 2.477 15.796-0.242 19.546-3.504 0.788-0.008 1.381-0.012 1.781-0.012 5.223 0 9.638-4.523 9.458-9.554-0.123-3.458-1.227-4.238-1.608-5.754z"></path>
