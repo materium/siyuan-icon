@@ -304,14 +304,10 @@ document.body.insertAdjacentHTML('afterBegin', `<svg style="position: absolute; 
   </symbol>
   <symbol id="iconMath" viewBox="0 0 32 32">
     <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill="none" stroke="currentColor">
-      <line x1="10" y1="19" x2="10" y2="25"></line>
-      <line x1="13" y1="22" x2="7" y2="22"></line>
-      <line x1="24.5" y1="7.5" x2="19.5" y2="12.5"></line>
-      <line x1="24.5" y1="12.5" x2="19.5" y2="7.5"></line>
-      <line x1="13" y1="10" x2="7" y2="10"></line>
-      <line x1="25" y1="20" x2="19" y2="20"></line>
-      <line x1="25" y1="24" x2="19" y2="24"></line>
-      <rect x="2" y="2" width="28" height="28"></rect>
+      <path d="M20,20c5,0,4,10,9,10"></path>
+      <path d="M30,20c-5,0-6,10-12,10"></path>
+      <line x1="7" y1="12" x2="19" y2="12"></line>
+      <path d="M2,27a3,3,0,0,0,3,3c8.273,0,5-28,14-28a3,3,0,0,1,3,3"></path>
     </g>
   </symbol>
   <symbol id="iconClose" viewBox="0 0 32 32">
